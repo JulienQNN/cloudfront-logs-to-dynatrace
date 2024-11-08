@@ -8,6 +8,9 @@ This sample demonstrates how to send AWS CloudFront logs to Dynatrace.
   [here](https://docs.dynatrace.com/docs/shortlink/lma-stream-logs-with-firehose#prerequisites)
 - KMS encryption is optional
 
+> [!WARNING]
+> This solution incurs costs from both AWS and Dynatrace, so it is recommended to use it sparingly unless more cost-effective alternatives are available for your needs
+
 ## Architecture diagram
 
 ![infra-diagrams](./docs/architecture/terraform-aws-cloudfront-logs-to-dynatrace.png)
